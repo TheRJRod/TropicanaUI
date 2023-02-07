@@ -74,9 +74,7 @@ dot2.addEventListener('click', () => {
   bodyColor.style.backgroundColor = 'Red';
   hero.style.backgroundColor = 'Red';
 
-  // if (dot2.classList.contains('colorClass') === false) {
-  //   dot2.classList.add('colorClass');
-  // }
+  
 
   dot2.classList.add('colorClass');
   dot1.classList.remove('colorClass');
@@ -146,13 +144,7 @@ function show(hidden1, hidden2, drinkinfo, shown) {
     shown.style.transform = 'translate(0px)';
      } );
   }}
-//   exit.addEventListener('click', () => {
-//     hidden1.style.opacity = '1';
-//     hidden2.style.opacity = '1';
-//   drinkinfo.style.translate = '1400px -50%';
-//    } );
-// }
-  
+
 const branch1 = document.querySelector('.branch1');
 const branch2 = document.querySelector('.branch2'); 
 window.addEventListener('scroll', (e) => {
